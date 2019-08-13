@@ -50,4 +50,12 @@ git branch branch_name
 
 15.)To switch from master branch to custom branch
 
+git checkout branch_name
 
+16.)To merge custom branch to master branch
+
+first checkout to master branch and type the following command
+
+git merge custom_branch_name
+
+17.)
