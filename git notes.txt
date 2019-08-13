@@ -66,4 +66,12 @@ git merge custom_branch_name
 
 git rebase branchname(adding commis's linearly to master.Does the same thing what git merge does)
 
-18.)
+18.)to revert to previous commit 
+
+-->type git log
+
+-->find your commit id there and take first 8 digits of that heaxadecimal code and type the following command
+
+git checkout 8digit-value filename
+
+now the changes will be reverted back to the previous commit
