@@ -1,0 +1,53 @@
+Basics of Git
+1.)To initialize a local repository as a empty git repository
+Go to the empty project directory and give 
+
+git init           ------->Initialization
+
+2.)Create any file say for example test.py and save file
+
+3.)Add the file to the staging area
+
+git add test.py    -------->Adding the file
+
+4.)git status      -------->Shows what are files need to be commited to the local git repository
+
+5.)git commit -m "First Commit" 
+
+6.) To push it to the remote repository create a github account and create a public repository
+
+7.)After creating repository copy the SSH link and type the following command
+ 
+git remote add origin "Copied URL" and execute the command
+
+8.)Pull the contents from remote to local
+
+git pull origin master 
+
+9.)To push the local files in to the remote repository
+
+git push origin master
+
+10.)To add all files at once 
+
+git add -A
+
+11.)To commit all files to local repository
+
+git commit -a -m "Commit message" 
+
+12.)to see git log
+
+git log
+
+13.)Branching
+Two types:
+-->Local Barches
+-->Remote-tracking branches
+14.)Command to create custom branches
+
+git branch branch_name
+
+15.)To switch from master branch to custom branch
+
+
