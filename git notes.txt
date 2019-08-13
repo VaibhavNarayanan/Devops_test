@@ -58,4 +58,12 @@ first checkout to master branch and type the following command
 
 git merge custom_branch_name
 
-17.)
+17.)Rebasing
+
+-->It is another kind of merging
+
+-->command 
+
+git rebase branchname(adding commis's linearly to master.Does the same thing what git merge does)
+
+18.)
